@@ -114,7 +114,7 @@ a {
   width: 100%;
   /* background: var(--mainGrey); */
   background: transparent;
-  box-shadow: var(--lightShadow);
+  /* box-shadow: var(--lightShadow); */
   position: fixed;
   top: 0;
   left: 0;
