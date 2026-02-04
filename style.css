@@ -142,7 +142,7 @@ a {
   max-height: 70vh;
   overflow-y: auto;
   transition: var(--mainTransition);
-  background: var(--mainGrey);
+  background: rgb(108, 127, 138);
   /* background: var(--mainGrey); */
   position: absolute;
   top: 100%;
@@ -205,6 +205,13 @@ a {
 
   .nav-link {
     padding: 0 1rem;
+  }
+    .artiste-image-social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    place-items: center;
   }
 }
 
@@ -315,8 +322,14 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
   max-width: 1170px;
   margin: 0 auto;
   padding: 2rem;
+
 }
 
+.artiste-icon{
+  align-items: center !important;
+  place-items: center !important;
+  justify-content: center !important;
+}
 
 .artiste-container{
     height :max-content;
@@ -325,7 +338,9 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
 .artiste-card {
   display: flex;
   flex-direction: column; /* stacked on mobile */
-  align-items: center;
+  align-items: center !important;
+  place-items: center !important;
+  justify-content: center !important;
   gap: 1rem;
 }
 
@@ -348,6 +363,12 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
   transition: var(--mainTransition);
 }
 
+
+.artiste-social{
+justify-content: center !important;
+place-items: center !important;
+align-items: center !important;
+}
 .artiste-social a:hover {
   color: var(--mainBlack);
 }
@@ -376,8 +397,9 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
   .artiste-image-social {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.5rem;
+    align-items: center;
+    place-items: center;
   }
 
   .artiste-image-social img {
@@ -388,6 +410,13 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
 @media screen and (min-width: 992px) {
   .artiste-content {
     grid-template-columns: repeat(3, 1fr);
+  }
+    .artiste-image-social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    place-items: center;
   }
 }
 
@@ -459,6 +488,13 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
   .hero {
     min-height: 75vh;
     padding: 2rem;
+  }
+    .artiste-image-social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    place-items: center;
   }
 }
 
