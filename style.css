@@ -456,3 +456,43 @@ background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cove
     padding: 2rem;
   }
 }
+
+
+
+/* ===== OUR-ARTISTE-HTML ===== */
+
+  /* background: linear-gradient(rgba(47,50,51,0.7), rgba(0,0,0,0.7)),
+              url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat; */
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (max-width: 767px) {
+  .hero1 {
+    min-height: 75vh;
+    padding: 2rem;
+  }
+}
+
+
+/* ===== HERO1 ===== */
+.hero1 {
+  min-height: 100vh;
+  background: url("images/8.jpeg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--mainWhite);
+}
+
+.hero1-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.hero1-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== OUR-ARTISTE-HTML ===== */
