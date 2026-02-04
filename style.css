@@ -210,7 +210,9 @@ a {
 
 /* ===== HERO ===== */
 .hero {
-  min-height: 100vh;
+  /* padding: 40px;
+  min-height: 100vh; */
+  height: 100vh;
   background: linear-gradient(rgba(47,50,51,0.7), rgba(0,0,0,0.7)),
               url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
 background: url("images/FCD22D84-AD9E-4C40-A970-075E7BC57E93-1.jpg") center/cover no-repeat;
