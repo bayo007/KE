@@ -112,7 +112,8 @@ a {
 /* ===== NAVBAR ===== */
 .navbar {
   width: 100%;
-  background: var(--mainGrey);
+  /* background: var(--mainGrey); */
+  background: transparent;
   box-shadow: var(--lightShadow);
   position: fixed;
   top: 0;
@@ -142,6 +143,7 @@ a {
   overflow-y: auto;
   transition: var(--mainTransition);
   background: var(--mainGrey);
+  /* background: var(--mainGrey); */
   position: absolute;
   top: 100%;
   right: 0;
@@ -158,7 +160,8 @@ a {
 /* Individual nav links */
 .nav-link {
   padding: 1rem 0;
-  color: var(--mainBlack);
+  /* color: var(--mainBlack); */
+  color: var(--mainWhite);
   font-weight: bold;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
